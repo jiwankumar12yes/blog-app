@@ -1,0 +1,166 @@
+<!-- Design a travel blog homepage using SCSS with nested selectors and variables.
+
+> Top banner with blog title and subtitle.
+> Grid layout for blog posts preview.
+> Sidebar with categories list.
+> Featured destination highlight box.
+> Footer with newsletter signup. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style4.css" />
+    <title>Blog apps</title>
+  </head>
+  <body>
+    <!-- Top banner with blog title and subtitle -->
+    <header>
+      <h1>Welcome to Blog Apps</h1>
+      <h2>Jiwan Blogs</h2>
+    </header>
+
+    <!-- Grid layout for blog posts preview. & Sidebar with categories list. -->
+    <main>
+      <div class="blogs-container">
+        <article>
+          <h2>TITLE HEADING</h2>
+          <p>
+            Title description, <time datetime="2017-12-7"> Dec 7, 2017</time>
+          </p>
+          <figure>
+            <img src="images/blog1.jfif" alt="animals in blog image" />
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              distinctio accusantium consequuntur sapiente quasi sint! Sunt eos,
+              iste libero porro placeat molestias repellat, sit asperiores
+              distinctio ratione quam maxime hic.
+            </figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <h2>TITLE HEADING</h2>
+          <p>
+            Title description, <time datetime="2017-12-7"> Dec 7, 2017</time>
+          </p>
+          <figure>
+            <img src="images/blog2.jfif" alt="animals in blog image" />
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              distinctio accusantium consequuntur sapiente quasi sint! Sunt eos,
+              iste libero porro placeat molestias repellat, sit asperiores
+              distinctio ratione quam maxime hic.
+            </figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <h2>TITLE HEADING</h2>
+          <p>
+            Title description, <time datetime="2017-12-7"> Dec 7, 2017</time>
+          </p>
+          <figure>
+            <img src="images/blog3.jfif" alt="animals in blog image" />
+            <figcaption>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              distinctio accusantium consequuntur sapiente quasi sint! Sunt eos,
+              iste libero porro placeat molestias repellat, sit asperiores
+              distinctio ratione quam maxime hic.
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+
+      <div class="sidebar">
+        <article>
+          <div class="about-me">
+            <h3>About me</h3>
+            <figure>
+              <img src="images/profile.jfif" alt="" />
+              <figcaption>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consectetur eligendi neque odit repudiandae nisi dignissimos
+                voluptate tenetur impedit eveniet possimus quam dolor, suscipit
+                provident corporis saepe amet quo ipsa voluptates.
+              </figcaption>
+            </figure>
+          </div>
+        </article>
+        <form>
+            <h3>categories list</h2>
+          <input type="checkbox" id="category1" name="category1" value="Food" />
+          <label for="category1"> Food blogs</label><br />
+          <input type="checkbox" id="category2"/>
+          <label for="category2"> Travel</label><br />
+          <input type="checkbox" id="category3" />
+          <label for="category3"> Fitness blogs</label><br>
+          <input type="checkbox" id="category2"/>
+          <label for="category4">Personal blogs</label><br />
+          <input type="checkbox" id="category4" />
+          <label for="category5"> Fashion</label><br>
+            <input type="checkbox" id="category6"/>
+             <label for="category6">Lifestyle</label><br>
+        </form>
+        <article class="famous-post">
+          <h3>Popular Posts</h3>
+          <img src="images/b2.jfif" alt="famous posts" />
+          <img src="images/b3.jfif" alt="famous posts" />
+        </article>
+      </div>
+    </main>
+
+     <!-- Featured destination highlight box. -->
+      <section>
+        <h2>Featured destination</h2>
+        <div class="card-wraper">
+            <div class="card" style="background-image: url(images/p1.jfif);">
+               <p>Place 1</p>
+            </div>
+            <div class="card" style="background-image: url(images/p2.jfif);">
+               <p>Place 2</p>
+            </div>
+            <div class="card" style="background-image: url(images/p3.jfif);">
+                <p>place 3</p>
+            </div>
+            <div class="card" style="background-image: url(images/p4.jfif);">
+                <p>Place 4</p>
+            </div>
+            <div class="card" style="background-image: url(images/p5.jfif);">
+                <p>Place 5</p>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <form action="">
+            <input type="text" placeholder="Your name">
+            <input type="email" name="" id="" placeholder="Enter your email">
+            <button type="button">Sign up</button>
+        </form>
+      </section>
+      <footer>
+        <div class="footer-wrap">
+
+            <div class="footer-icon">
+                <img src="images/instagram.png" alt="">
+                <img src="images/facebook.png" alt="">
+                <img src="images/tik-tok.png" alt="">
+                <img src="images/facebook.png" alt="">
+                <img src="images/linkedin.png" alt="">
+            </div>
+            <div class="policy">
+                <a href="">About us</a>
+                <a href="">Products</a>
+                <a href="">Security</a>
+                <a href="">Terms & Condition</a>
+                <a href="">Contact us</a>
+            </div>
+            <div>
+                <p>&copy Jiwan</p>
+            </div>
+        </div>
+      </footer>
+
+  </body>
+</html>
